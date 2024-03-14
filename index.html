@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal</title>
+    <link rel = "stylesheet" href="atmstyle.css">
+    
+    
+</head>
+<body>
+    
+    <p id="balanceDisplay"></p>
+    <label>Çekmek istediğiniz miktarı belirtin<br></label>
+    <input type="text" id="wAmount" name="wAmount" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+
+    <button id="wButton" name="withdraw">Para Çek</button><br>
+    <br>
+  
+    <label>Aktarmak istediğiniz miktarı belirtin<br></label>
+    <input type="text" id="dAmount" name="dAmount" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+    <button id="dButton" name="deposit">Para Aktar</button><br>
+    
+    <br>
+    <script src="atm.js"></script>
+</body>
+</html>
