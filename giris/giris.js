@@ -1,7 +1,7 @@
 
 //*
 document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Formun varsayılan gönderimini engelle
+    event.preventDefault(); // Formun varsayılan gönderimini engelle Deneme
   
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
@@ -13,5 +13,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     } else {
       alert("Geçersiz kullanıcı adı veya parola!");
     }
+    console.log("test")
   });
   
